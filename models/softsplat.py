@@ -219,13 +219,36 @@ def cuda_kernel(strFunction:str, strKernel:str, objVariables:typing.Dict):
 
 
 @cupy.memoize(for_each_device=True)
-def cuda_launch(strKey:str):
-    if 'CUDA_HOME' not in os.environ:
-        os.environ['CUDA_HOME'] = cupy.cuda.get_cuda_path()
-    # end
+def cuda_launch(strKey: str):
+    """
+    Compile the CUDA kernel for the given key.
 
-    return cupy.RawKernel(objCudacache[strKey]['strKernel'], objCudacache[strKey]['strFunction'], tuple(['-I ' + os.environ['CUDA_HOME'], '-I ' + os.environ['CUDA_HOME'] + '/include']))
-# end
+    On some systems (like clusters using cupy-cuda11x wheels), cupy.cuda.get_cuda_path()
+    can return None because there's no system-wide CUDA toolkit. In that case we skip
+    setting CUDA_HOME and just compile without extra -I include flags.
+    """
+    cuda_home = os.environ.get("CUDA_HOME", None)
+
+    if cuda_home is None:
+        try:
+            cuda_home = cupy.cuda.get_cuda_path()
+        except Exception:
+            cuda_home = None
+
+        if isinstance(cuda_home, str):
+            os.environ["CUDA_HOME"] = cuda_home
+
+    # Build extra compiler options only if we have a valid CUDA_HOME
+    options = []
+    if isinstance(cuda_home, str) and cuda_home:
+        options.append("-I " + cuda_home)
+        options.append("-I " + cuda_home + "/include")
+
+    return cupy.RawKernel(
+        objCudacache[strKey]["strKernel"],
+        objCudacache[strKey]["strFunction"],
+        tuple(options),
+    )
 
 
 ##########################################################
