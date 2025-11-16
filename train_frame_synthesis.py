@@ -14,7 +14,7 @@ from models.frame_synthesis import *
 from utils import *
 
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-_NAME = "frame_synthesis_v1"
+_NAME = "frame_synthesis_gauss_v1"
 _MODEL_DIR = "data/models"
 if not os.path.exists(_MODEL_DIR):
     os.makedirs(_MODEL_DIR)
