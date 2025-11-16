@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 from typing import Union
-from .softsplat import softsplat
+from .gaussian_splat import gaussian_splat as softsplat
 
 def get_vgg16_feature_extractor(layers):
     from torchvision.models import vgg16, VGG16_Weights
