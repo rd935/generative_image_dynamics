@@ -1,0 +1,1300 @@
+Running on: gpu017.amarel.rutgers.edu
+Sun Nov 16 15:55:07 2025       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.154.05             Driver Version: 535.154.05   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA GeForce RTX 3090        On  | 00000000:18:00.0 Off |                  N/A |
+| 35%   28C    P8              29W / 350W |      1MiB / 24576MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+|   1  NVIDIA GeForce RTX 3090        On  | 00000000:3B:00.0 Off |                  N/A |
+| 32%   28C    P8              27W / 350W |      1MiB / 24576MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+|   2  NVIDIA GeForce RTX 3090        On  | 00000000:86:00.0 Off |                  N/A |
+| 33%   28C    P8              35W / 350W |      1MiB / 24576MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+|   3  NVIDIA GeForce RTX 3090        On  | 00000000:AF:00.0 Off |                  N/A |
+| 30%   27C    P8              24W / 350W |      1MiB / 24576MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+LPIPS-Alexnet
+FrameFlowDataset (train): 1 sequences
+FrameFlowDataset (test): 1 sequences
+1 train batches, 1 test batches
+start training from scratch
+ite 0 / 300: loss=0.963086 elapsed=0:00:05.586387
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 4 / 300: loss=0.824698 elapsed=0:00:10.327433
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 15.297307014465332, 'SSIM': 0.37346330285072327, 'LPIPS-Alexnet': 0.5336288213729858} elapsed=0:00:12.366298
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T15_55_48.948984.mp4
+elapsed=0:00:15.803738
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 9 / 300: loss=0.708645 elapsed=0:00:22.416955
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 16.86711311340332, 'SSIM': 0.5172566771507263, 'LPIPS-Alexnet': 0.38502445816993713} elapsed=0:00:24.330750
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T15_56_00.889091.mp4
+elapsed=0:00:27.692228
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 14 / 300: loss=0.627466 elapsed=0:00:34.549829
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 18.795473098754883, 'SSIM': 0.6422431468963623, 'LPIPS-Alexnet': 0.2710174024105072} elapsed=0:00:36.456646
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T15_56_12.996633.mp4
+elapsed=0:00:39.783599
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 19 / 300: loss=0.571745 elapsed=0:00:46.775989
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 20.417757034301758, 'SSIM': 0.7448863387107849, 'LPIPS-Alexnet': 0.21192887425422668} elapsed=0:00:48.633132
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T15_56_25.193054.mp4
+elapsed=0:00:52.002448
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 24 / 300: loss=0.510568 elapsed=0:00:58.626422
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 21.982200622558594, 'SSIM': 0.7984360456466675, 'LPIPS-Alexnet': 0.1471136212348938} elapsed=0:01:00.513718
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T15_56_37.119430.mp4
+elapsed=0:01:03.906710
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 29 / 300: loss=0.530904 elapsed=0:01:10.810064
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 22.635555267333984, 'SSIM': 0.8302194476127625, 'LPIPS-Alexnet': 0.11718619614839554} elapsed=0:01:12.668486
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T15_56_49.254729.mp4
+elapsed=0:01:16.053579
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 34 / 300: loss=0.483156 elapsed=0:01:22.848910
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.109573364257812, 'SSIM': 0.8442664742469788, 'LPIPS-Alexnet': 0.09730121493339539} elapsed=0:01:24.708356
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T15_57_01.238683.mp4
+elapsed=0:01:28.062940
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 39 / 300: loss=0.445437 elapsed=0:01:34.733305
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.29612922668457, 'SSIM': 0.8492725491523743, 'LPIPS-Alexnet': 0.08229520171880722} elapsed=0:01:36.630404
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T15_57_13.159320.mp4
+elapsed=0:01:39.966344
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 44 / 300: loss=0.479903 elapsed=0:01:46.464687
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.340831756591797, 'SSIM': 0.851608395576477, 'LPIPS-Alexnet': 0.07239604741334915} elapsed=0:01:48.358564
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T15_57_24.856571.mp4
+elapsed=0:01:51.661689
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 49 / 300: loss=0.443963 elapsed=0:01:58.453163
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.477153778076172, 'SSIM': 0.8570706248283386, 'LPIPS-Alexnet': 0.0666930302977562} elapsed=0:02:00.312148
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T15_57_36.823645.mp4
+elapsed=0:02:03.616860
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 54 / 300: loss=0.349877 elapsed=0:02:10.245879
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.4697208404541, 'SSIM': 0.8580835461616516, 'LPIPS-Alexnet': 0.06711410731077194} elapsed=0:02:12.151738
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T15_57_48.677398.mp4
+elapsed=0:02:15.486456
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 59 / 300: loss=0.424628 elapsed=0:02:22.328558
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.399465560913086, 'SSIM': 0.8590441942214966, 'LPIPS-Alexnet': 0.07403697818517685} elapsed=0:02:24.205378
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T15_58_00.710914.mp4
+elapsed=0:02:27.518245
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 64 / 300: loss=0.371954 elapsed=0:02:34.073880
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.602933883666992, 'SSIM': 0.8606134057044983, 'LPIPS-Alexnet': 0.06569987535476685} elapsed=0:02:35.925212
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T15_58_12.482296.mp4
+elapsed=0:02:39.304659
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 69 / 300: loss=0.370676 elapsed=0:02:46.034405
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.640871047973633, 'SSIM': 0.8625745177268982, 'LPIPS-Alexnet': 0.061979398131370544} elapsed=0:02:47.936228
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T15_58_24.445298.mp4
+elapsed=0:02:51.250019
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 74 / 300: loss=0.372097 elapsed=0:02:57.829312
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.68964385986328, 'SSIM': 0.8648335337638855, 'LPIPS-Alexnet': 0.06077985465526581} elapsed=0:02:59.675427
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T15_58_36.174003.mp4
+elapsed=0:03:02.983524
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 79 / 300: loss=0.375924 elapsed=0:03:09.627648
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.752971649169922, 'SSIM': 0.8665005564689636, 'LPIPS-Alexnet': 0.059357501566410065} elapsed=0:03:11.433512
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T15_58_48.019600.mp4
+elapsed=0:03:14.844840
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 84 / 300: loss=0.366657 elapsed=0:03:21.456601
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.743642807006836, 'SSIM': 0.8670400381088257, 'LPIPS-Alexnet': 0.058388229459524155} elapsed=0:03:23.350148
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T15_58_59.887763.mp4
+elapsed=0:03:26.701569
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 89 / 300: loss=0.366981 elapsed=0:03:33.585581
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.77086067199707, 'SSIM': 0.8676442503929138, 'LPIPS-Alexnet': 0.05638790875673294} elapsed=0:03:35.473525
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T15_59_12.032065.mp4
+elapsed=0:03:38.847386
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 94 / 300: loss=0.366548 elapsed=0:03:45.255840
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.827789306640625, 'SSIM': 0.869745671749115, 'LPIPS-Alexnet': 0.05705573037266731} elapsed=0:03:47.161163
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T15_59_23.685440.mp4
+elapsed=0:03:50.483760
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 99 / 300: loss=0.351613 elapsed=0:03:57.349456
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.767871856689453, 'SSIM': 0.8677805662155151, 'LPIPS-Alexnet': 0.056942958384752274} elapsed=0:03:59.237804
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T15_59_35.787594.mp4
+elapsed=0:04:02.583055
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 104 / 300: loss=0.422642 elapsed=0:04:09.285949
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.791627883911133, 'SSIM': 0.8699978590011597, 'LPIPS-Alexnet': 0.058594390749931335} elapsed=0:04:11.171266
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T15_59_47.954931.mp4
+elapsed=0:04:14.764980
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 109 / 300: loss=0.358419 elapsed=0:04:21.444541
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.890914916992188, 'SSIM': 0.87111896276474, 'LPIPS-Alexnet': 0.0563247874379158} elapsed=0:04:23.330116
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T15_59_59.867403.mp4
+elapsed=0:04:26.674593
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 114 / 300: loss=0.374503 elapsed=0:04:33.407133
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.886428833007812, 'SSIM': 0.871408224105835, 'LPIPS-Alexnet': 0.056577786803245544} elapsed=0:04:35.595696
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_00_12.124037.mp4
+elapsed=0:04:38.946356
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 119 / 300: loss=0.293680 elapsed=0:04:45.686398
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.90779685974121, 'SSIM': 0.8720347881317139, 'LPIPS-Alexnet': 0.05612853541970253} elapsed=0:04:47.602859
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_00_24.117287.mp4
+elapsed=0:04:50.923907
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 124 / 300: loss=0.344459 elapsed=0:04:57.894378
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.882978439331055, 'SSIM': 0.8724101185798645, 'LPIPS-Alexnet': 0.05518340319395065} elapsed=0:04:59.724458
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_00_36.271929.mp4
+elapsed=0:05:03.120465
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 129 / 300: loss=0.338851 elapsed=0:05:09.886725
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.938199996948242, 'SSIM': 0.8727989196777344, 'LPIPS-Alexnet': 0.05395263805985451} elapsed=0:05:11.798669
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_00_48.340849.mp4
+elapsed=0:05:15.145742
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 134 / 300: loss=0.350233 elapsed=0:05:22.153883
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.932308197021484, 'SSIM': 0.8735716938972473, 'LPIPS-Alexnet': 0.05502476915717125} elapsed=0:05:23.977274
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_01_00.598273.mp4
+elapsed=0:05:27.413429
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 139 / 300: loss=0.369695 elapsed=0:05:34.065453
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.93303680419922, 'SSIM': 0.8732185363769531, 'LPIPS-Alexnet': 0.056180696934461594} elapsed=0:05:35.981033
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_01_12.539309.mp4
+elapsed=0:05:39.330998
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 144 / 300: loss=0.359968 elapsed=0:05:46.233768
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.990205764770508, 'SSIM': 0.87398761510849, 'LPIPS-Alexnet': 0.05399066582322121} elapsed=0:05:48.106050
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_01_24.645191.mp4
+elapsed=0:05:51.450719
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 149 / 300: loss=0.343851 elapsed=0:05:58.154944
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.96010971069336, 'SSIM': 0.8745428323745728, 'LPIPS-Alexnet': 0.05425845459103584} elapsed=0:06:00.023237
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_01_36.824641.mp4
+elapsed=0:06:03.601639
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 154 / 300: loss=0.321884 elapsed=0:06:10.318240
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.997629165649414, 'SSIM': 0.875047504901886, 'LPIPS-Alexnet': 0.05418070778250694} elapsed=0:06:12.160536
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_01_48.708436.mp4
+elapsed=0:06:15.531185
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 159 / 300: loss=0.375216 elapsed=0:06:22.320396
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 24.02692222595215, 'SSIM': 0.875259518623352, 'LPIPS-Alexnet': 0.052835945039987564} elapsed=0:06:24.398608
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_02_00.976459.mp4
+elapsed=0:06:27.777633
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 164 / 300: loss=0.407435 elapsed=0:06:34.579205
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.952163696289062, 'SSIM': 0.874944269657135, 'LPIPS-Alexnet': 0.05510116368532181} elapsed=0:06:36.500882
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_02_13.085287.mp4
+elapsed=0:06:39.893590
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 169 / 300: loss=0.323438 elapsed=0:06:46.949961
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 24.03961753845215, 'SSIM': 0.8763440251350403, 'LPIPS-Alexnet': 0.053383808583021164} elapsed=0:06:48.856945
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_02_25.400161.mp4
+elapsed=0:06:52.218348
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 174 / 300: loss=0.350708 elapsed=0:06:58.830425
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.931936264038086, 'SSIM': 0.8758938312530518, 'LPIPS-Alexnet': 0.05398862808942795} elapsed=0:07:00.682932
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_02_37.238333.mp4
+elapsed=0:07:04.060557
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 179 / 300: loss=0.337279 elapsed=0:07:11.076498
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 24.082796096801758, 'SSIM': 0.876654326915741, 'LPIPS-Alexnet': 0.052972543984651566} elapsed=0:07:12.904168
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_02_49.470097.mp4
+elapsed=0:07:16.285151
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 184 / 300: loss=0.324055 elapsed=0:07:23.056848
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 24.035032272338867, 'SSIM': 0.8757020235061646, 'LPIPS-Alexnet': 0.05235939100384712} elapsed=0:07:24.946997
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_03_01.522115.mp4
+elapsed=0:07:28.320167
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 189 / 300: loss=0.335856 elapsed=0:07:35.215132
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.983251571655273, 'SSIM': 0.8769522309303284, 'LPIPS-Alexnet': 0.054404471069574356} elapsed=0:07:37.119694
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_03_13.638111.mp4
+elapsed=0:07:40.447188
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 194 / 300: loss=0.333848 elapsed=0:07:47.210688
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 24.034494400024414, 'SSIM': 0.8771443367004395, 'LPIPS-Alexnet': 0.05259028822183609} elapsed=0:07:49.092356
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_03_25.688929.mp4
+elapsed=0:07:52.490410
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 199 / 300: loss=0.376588 elapsed=0:07:59.556685
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 24.054706573486328, 'SSIM': 0.8775306940078735, 'LPIPS-Alexnet': 0.052813198417425156} elapsed=0:08:01.414243
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_03_38.029194.mp4
+elapsed=0:08:04.841479
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 204 / 300: loss=0.330662 elapsed=0:08:11.602553
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 24.072050094604492, 'SSIM': 0.8777086734771729, 'LPIPS-Alexnet': 0.05246252194046974} elapsed=0:08:13.504852
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_03_50.286357.mp4
+elapsed=0:08:17.102815
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 209 / 300: loss=0.364119 elapsed=0:08:23.802561
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 24.03366470336914, 'SSIM': 0.8775274157524109, 'LPIPS-Alexnet': 0.05349962040781975} elapsed=0:08:25.633193
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_04_02.174702.mp4
+elapsed=0:08:28.981033
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 214 / 300: loss=0.349838 elapsed=0:08:35.957077
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 24.103797912597656, 'SSIM': 0.8777490258216858, 'LPIPS-Alexnet': 0.051283445209264755} elapsed=0:08:37.838275
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_04_14.384489.mp4
+elapsed=0:08:41.168333
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 219 / 300: loss=0.399600 elapsed=0:08:47.703637
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 24.106536865234375, 'SSIM': 0.87815260887146, 'LPIPS-Alexnet': 0.05154822766780853} elapsed=0:08:49.596313
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_04_26.130427.mp4
+elapsed=0:08:52.937815
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 224 / 300: loss=0.319084 elapsed=0:08:59.905459
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.96323013305664, 'SSIM': 0.877962589263916, 'LPIPS-Alexnet': 0.05273134633898735} elapsed=0:09:01.824910
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_04_38.369945.mp4
+elapsed=0:09:05.172415
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 229 / 300: loss=0.324739 elapsed=0:09:11.882227
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 24.13655662536621, 'SSIM': 0.8786539435386658, 'LPIPS-Alexnet': 0.05249748006463051} elapsed=0:09:13.791379
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_04_50.345354.mp4
+elapsed=0:09:17.154091
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 234 / 300: loss=0.320705 elapsed=0:09:23.877930
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 24.149822235107422, 'SSIM': 0.8786858916282654, 'LPIPS-Alexnet': 0.0525793693959713} elapsed=0:09:25.679220
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_05_02.215046.mp4
+elapsed=0:09:29.020599
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 239 / 300: loss=0.399294 elapsed=0:09:35.516382
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 24.135164260864258, 'SSIM': 0.8788855671882629, 'LPIPS-Alexnet': 0.05256190896034241} elapsed=0:09:37.420812
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_05_13.986613.mp4
+elapsed=0:09:40.797042
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 244 / 300: loss=0.316003 elapsed=0:09:47.639806
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 24.068735122680664, 'SSIM': 0.8787301182746887, 'LPIPS-Alexnet': 0.051655009388923645} elapsed=0:09:49.531045
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_05_26.086994.mp4
+elapsed=0:09:52.895387
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 249 / 300: loss=0.349588 elapsed=0:09:59.597811
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 24.153671264648438, 'SSIM': 0.8793935179710388, 'LPIPS-Alexnet': 0.051666054874658585} elapsed=0:10:01.473974
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_05_38.028665.mp4
+elapsed=0:10:04.830358
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 254 / 300: loss=0.320684 elapsed=0:10:11.873502
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 23.948360443115234, 'SSIM': 0.8788315057754517, 'LPIPS-Alexnet': 0.05339585244655609} elapsed=0:10:13.750289
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_05_50.309011.mp4
+elapsed=0:10:17.114996
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 259 / 300: loss=0.343703 elapsed=0:10:23.729243
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 24.17984962463379, 'SSIM': 0.8796294331550598, 'LPIPS-Alexnet': 0.05136166140437126} elapsed=0:10:25.599654
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_06_02.369693.mp4
+elapsed=0:10:29.194430
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 264 / 300: loss=0.395119 elapsed=0:10:35.874460
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 24.166147232055664, 'SSIM': 0.879209578037262, 'LPIPS-Alexnet': 0.051649369299411774} elapsed=0:10:37.748449
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_06_14.301585.mp4
+elapsed=0:10:41.108164
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 269 / 300: loss=0.370594 elapsed=0:10:47.920334
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 24.117870330810547, 'SSIM': 0.879999577999115, 'LPIPS-Alexnet': 0.052264705300331116} elapsed=0:10:49.790149
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_06_26.360784.mp4
+elapsed=0:10:53.174670
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 274 / 300: loss=0.307089 elapsed=0:11:00.030189
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 24.11686897277832, 'SSIM': 0.8800315260887146, 'LPIPS-Alexnet': 0.05200069397687912} elapsed=0:11:01.877938
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_06_38.439639.mp4
+elapsed=0:11:05.263177
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 279 / 300: loss=0.343213 elapsed=0:11:12.226552
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 24.20165252685547, 'SSIM': 0.8803032040596008, 'LPIPS-Alexnet': 0.051459576934576035} elapsed=0:11:14.065637
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_06_50.633560.mp4
+elapsed=0:11:17.452260
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 284 / 300: loss=0.318988 elapsed=0:11:24.035957
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 24.1552734375, 'SSIM': 0.8795073628425598, 'LPIPS-Alexnet': 0.051550623029470444} elapsed=0:11:25.893451
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_07_02.460261.mp4
+elapsed=0:11:29.259600
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 289 / 300: loss=0.317633 elapsed=0:11:36.188399
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 24.094905853271484, 'SSIM': 0.8802420496940613, 'LPIPS-Alexnet': 0.05137091130018234} elapsed=0:11:38.052717
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_07_14.578464.mp4
+elapsed=0:11:41.397970
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 294 / 300: loss=0.295948 elapsed=0:11:47.947031
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 24.2111873626709, 'SSIM': 0.880664587020874, 'LPIPS-Alexnet': 0.05209215730428696} elapsed=0:11:49.845465
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_07_26.373760.mp4
+elapsed=0:11:53.173682
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+ite 299 / 300: loss=0.387565 elapsed=0:12:00.191785
+checkpoint saved at data/models/frame_synthesis_sofsplat_v1.pth
+evaluation...
+{'PSNR': 24.155059814453125, 'SSIM': 0.8803301453590393, 'LPIPS-Alexnet': 0.05165393650531769} elapsed=0:12:02.041656
+plot saved at data/models/frame_synthesis_sofsplat_v1_loss.png
+plot saved at data/models/frame_synthesis_sofsplat_v1_metrics.png
+test...
+results saved at data/models/frame_synthesis_sofsplat_v1_samples/test0_Fleur_de_pommier_18_005_2025-11-16T16_07_38.553580.mp4
+elapsed=0:12:05.371981
+training finished in 0:12:05.372005
