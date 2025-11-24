@@ -47,17 +47,11 @@ pyflow
 outputs/softmax_result.mp4
 ```
 
-<h4>Softmax Splatting Result</h4>
-![](outputs/softmax_result.gif)
 
 ### **Gaussian Splatting Result**
 ```
 outputs/gaussian_result.mp4
 ```
-
-<h4>Gaussian Splatting Result</h4>
-![](outputs/gaussian_result.gif)
-
 
 ---
 
