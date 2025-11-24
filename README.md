@@ -55,7 +55,7 @@ outputs/gaussian_result.mp4
 
 ---
 
-# 🌀 Motion Synthesis Model
+# Motion Synthesis Model
 
 Implemented as a **latent diffusion model (LDM)** consisting of:
 - A VAE from `CompVis/ldm-celebahq-256`
@@ -69,7 +69,7 @@ python train_unet.py
 
 ---
 
-# 🔧 Frame Synthesis Model
+# Frame Synthesis Model
 
 The frame synthesis module takes:
 - Input image  
@@ -84,7 +84,7 @@ Both feed warped multiscale features into a **GridNet**.
 
 ---
 
-# 📊 Quantitative Evaluation
+# Quantitative Evaluation
 
 Metrics used:
 - **PSNR ↑**
@@ -99,7 +99,7 @@ Dataset:
 
 ---
 
-# 🛠 Training the Frame Synthesis Models
+# Training the Frame Synthesis Models
 
 Softmax Splatting:
 ```
@@ -113,7 +113,7 @@ python train_frame_synthesis_gaussian.py
 
 ---
 
-# ▶️ Running Inference
+# Running Inference
 
 ### Generate optical flow:
 ```
@@ -132,7 +132,7 @@ python synthesize_gaussian.py     --image image.png     --flow outputs/flow.npz 
 
 ---
 
-# 🗂 Project Structure
+# Project Structure
 
 ```
 ├── outputs/
@@ -148,7 +148,7 @@ python synthesize_gaussian.py     --image image.png     --flow outputs/flow.npz 
 
 ---
 
-# 📚 References
+# References
 
 [1] Z. Li, R. Tucker, N. Snavely, A. Holynski. *Generative Image Dynamics*. CVPR 2024.  
 [2] S. Niklaus, F. Liu. *Softmax Splatting*. CVPR 2020.
